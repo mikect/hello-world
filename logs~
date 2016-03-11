@@ -1,0 +1,121 @@
+ 1460  ls
+ 1461  cd workspace
+ 1462  ls
+ 1463  cd hello
+ 1464  ls
+ 1465  cd ..
+ 1466  ;s
+ 1467  ls
+ 1468  cd Hello World
+ 1469  cd Hello_World
+ 1470  cd Hello\ World/
+ 1471  ls
+ 1472  git init
+ 1473  git push
+ 1474  git add README.md
+ 1475  echo "# hello-world" >> README.md
+ 1476  git add README.md
+ 1477  commit -m "First commit"
+ 1478  git commit -m "First commit"
+ 1479  git config user.email "michaelle.cueco@gmail.com"
+ 1480  git config user.name "Michaelle Tabilin"
+ 1481  git commit -m "First commit"
+ 1482  git remote add origin https://github.com/mikect/hello-world.git
+ 1483  git push -u origin master
+ 1484  gedit README.md
+ 1485  git commit README.md -m "Second haha"
+ 1486  git push -u origin master
+ 1487  cd ..
+ 1488  md taketwo
+ 1489  mkdr taketwo
+ 1490  mkdir taketwo
+ 1491  cd taketwo/
+ 1492  git clone https://github.com/mikect/hello-world.git
+ 1493  ls
+ 1494  cd hello-world
+ 1495  ls
+ 1496  gedit README.md 
+ 1497  git commit README.md -m "Test"
+ 1498  git config user.email "michaelle.cueco@gmail.com"
+ 1499  git config user.name "Michaelle Tabilin"
+ 1500  git commit README.md -m "Test"
+ 1501  git push -u origin master
+ 1502  cd ..
+ 1503  cd hello-world
+ 1504  cd Hello\ World/
+ 1505  ls
+ 1506  gedit README.md
+ 1507  git commit README.md -m "Test"
+ 1508  git push -u origin master
+ 1509  git pull
+ 1510  gedit README.md
+ 1511  git commit README.md -m "Combined"
+ 1512  git add README.md
+ 1513  git status
+ 1514  git commit README.md -m "Combined"
+ 1515  git merge master
+ 1516  git commit README.md -m "Combined"
+ 1517  git commit
+ 1518  git commit -m "Combined"
+ 1519  git log
+ 1520  git push
+ 1521  touch .gitignore
+ 1522  gedit .gitignore
+ 1523  git add .gitignore
+ 1524  git status
+ 1525  touch smpl.txt
+ 1526  git status
+ 1527  git add smpl.txt
+ 1528  git status
+ 1529  git rm smpl.txt 
+ 1530  git rm -f smpl.txt 
+ 1531  git status
+ 1532  git commit -m "Added gitignore"
+ 1533  git push -u origin master
+ 1534  git status
+ 1535  touch sample1.txt
+ 1536  git status
+ 1537  cd ..
+ 1538  ls
+ 1539  cd taketwo/
+ 1540  ls
+ 1541  cd hello-world
+ 1542  touch file.txt
+ 1543  git add file.txt
+ 1544  git commit
+ 1545  git log
+ 1546  git status
+ 1547  git fetch origin
+ 1548  git log
+ 1549  git rebase origin master
+ 1550  git log
+ 1551  git push -u origin master
+ 1552  git branch
+ 1553  git branch bran1
+ 1554  git checkout bran1
+ 1555  git status
+ 1556  touch emtifile.txt
+ 1557  git commit -m "Added empty file new branch" emtifile.txt
+ 1558  ls
+ 1559  git commit -m "Added empty file new branch" emtifile.txt 
+ 1560  git commit emtifile.txt -m "Added empty file"
+ 1561  git add emtifile.txt 
+ 1562  git commit -m "added empty file"
+ 1563  git push -u origin master
+ 1564  git status
+ 1565  git push -u origin bran1
+ 1566  exit
+ 1567  git help
+ 1568  git help commit
+ 1569  eclipse --version
+ 1570  exit
+ 1571  sudo apt-get update
+ 1572  sudo apt-get upgrade
+ 1573  sudo apt-get update
+ 1574  sudo apt-get upgrade
+ 1575  ls
+ 1576  cd workspace/
+ 1577  ls
+ 1578  cd Hello\ World/
+ 1579  ls
+

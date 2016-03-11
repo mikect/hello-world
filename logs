@@ -92,7 +92,7 @@
  1551  git push -u origin master
  1552  git branch
  1553  git branch bran1
- 1554  git checkout bran1
+ 1554  git checkout bran1 - switch
  1555  git status
  1556  touch emtifile.txt
  1557  git commit -m "Added empty file new branch" emtifile.txt
